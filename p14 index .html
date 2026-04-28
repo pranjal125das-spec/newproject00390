@@ -1,0 +1,114 @@
+<html>
+        <head>
+            <title>Registration Form</title>
+            <style>
+                body
+                {
+                    font-family: Arial, Helvetica, sans-serif;
+                    background-color: white;
+                }
+
+                /* This is the header */
+                #header
+                {
+                    font-weight: bold;
+                    font-size: 20px;
+                    height: 100px; 
+                    background-color: pink;
+                    color: white;
+                    text-align: center;
+                }
+                /* This is the content section */   
+                .content
+                {
+                    display: flex;
+                    justify-content: center;
+                }
+                .content .regform form fieldset
+                {
+                    border: 2px solid black;
+                }
+                .content .regform form input
+                {
+                    border: 2px solid red;
+                    background-color: linen;
+                    border-radius: 5px;
+                    box-shadow: 2px 3px orange;
+                }
+
+            </style>
+        </head>
+        <body>
+            <!-- Header Section -->       
+        <div id="header">
+            <h3>Pranjal Das</h3>
+            <h2>This is the practical solutions for Practical 14</h2>
+        </div>
+
+        <!-- Main Content -->
+        <div class="content">
+            <div class="regform">
+                <form action="practical7.html">
+                    <fieldset>
+                        <legend style="text-align: center; font-weight: bold; font-size: 20px;">Registration Form</legend>
+                    <p>
+                        <label for="name">Name</label>
+                        <input type="text" placeholder="Enter your name here..." required>
+                    </p>
+                    <p>
+                        <label for="email">Email ID</label>
+                        <input type="email" placeholder="Enter your email here...">
+                    </p>
+                    <p>
+                        <label for="ph_no">Phone Number</label>
+                        <input type="text" placeholder="Enter your phone number here..." required>
+                    </p>
+                    <p>
+                        <label for="address">Address</label>
+                        <textarea name="address" id="address" required>Enter Your Address Here
+                        </textarea>
+                    </p>
+                    <P>
+                        <label for="dob">Date of Birth</label>
+                        <input type="date" name="dob" id="dob" required>
+                    </P>
+                    <p>
+                        <label for="age">Age</label>
+                        <input type="number" required>
+                    </p>
+            
+                    <p>
+                        <label for="gender" required>Gender</label>
+                        <input type="radio" name="male" id="gender">Male
+                        <input type="radio" name="female" id="gender">Female
+                    </p>
+                    <p>
+                        <label for="hobbies" required>Hobbies</label>
+                        <input type="checkbox" name="Riding" id="hobbies">Riding
+                        <input type="checkbox" name="food" id="hobbies">Food
+                        <input type="checkbox" name="climbing" id="hobbies"> climbing
+                      </p>
+                    <p>
+                        <label for="file">Upload File</label>
+                        <input type="file" name="doc" id="doc" required>
+                    </p>
+                     <p>
+                            <label for="passw">Password</label>
+                            <input type="password" name="passw" id="passw" required>
+                     </p>
+                     <p>
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                     </p>
+                     <p>
+                            <h4>Already have an account? <a href="practical11.html">Login</a></h4>
+                     </p>
+                    </fieldset>
+                </form>
+            </div>
+
+           <!--Footer Section-->
+            <div class="footer">
+                <p>&copy; Pranjal</p>
+    </body>
+</html>
